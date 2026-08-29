@@ -1,9 +1,12 @@
 # Head & Tail Recursion (Call Stack)
 
+## What is Call Stack:
+A memory area where JavaScript keeps track of which functions are currently running and in what order (LIFO — the function called last is the one that finishes and gets removed first).
+
+
 ## What This Covers
 Where the recursive call sits inside a function changes how it behaves. If the work happens before the call, or after it, that decides whether it's Head or Tail recursion.
 
----
 
 ## 1. Tail Recursion
 The recursive call is the last thing in the function. Nothing runs after it.
